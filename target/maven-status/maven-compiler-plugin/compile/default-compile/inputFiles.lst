@@ -1,0 +1,17 @@
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\config\ClientConfig.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\config\FileMonitorConfig.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\controller\FileController.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\dto\PositionalRecord.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\dto\ProdutoDTO.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\entity\FileRecord.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\FileMonitorApplication.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\repository\FileRecordRepository.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\service\FileMonitorService.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\service\FileParserService.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\service\FileProcessingService.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\service\JsonGeneratorService.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\service\ProdutoJsonService.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\service\ProdutoMapperService.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\util\Constants.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\util\FileValidator.java
+C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\atacadao_api_file\src\main\java\com\mercado\filemonitor\util\ProdutoWebClient.java

@@ -38,3 +38,7 @@ build/
 !/logs/
 !/local-repo/
 !/.idea/
+/.idea/
+!/local-repo/
+!/logs/
+!/target/
