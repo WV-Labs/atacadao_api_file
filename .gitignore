@@ -34,3 +34,7 @@ build/
 !/.idea/
 !/logs/
 !/local-repo/
+/src/main/resources/static/
+!/logs/
+!/local-repo/
+!/.idea/

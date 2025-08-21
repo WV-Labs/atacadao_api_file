@@ -1,0 +1,370 @@
+2025-08-21 11:45:14.420 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-21 11:45:14.521 INFO  c.m.f.FileMonitorApplication - Starting FileMonitorApplication using Java 17.0.9 with PID 27668 (C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\final_atac_file\target\classes started by Junior in C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\final_atac_file)
+2025-08-21 11:45:14.523 INFO  c.m.f.FileMonitorApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-21 11:45:16.091 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-21 11:45:16.441 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 331 ms. Found 1 JPA repository interface.
+2025-08-21 11:45:17.578 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-08-21 11:45:17.609 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-08-21 11:45:17.613 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-21 11:45:17.613 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-21 11:45:17.805 INFO  o.a.c.c.C.[.[.[/api-file-monitor] - Initializing Spring embedded WebApplicationContext
+2025-08-21 11:45:17.805 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3173 ms
+2025-08-21 11:45:18.214 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-21 11:45:18.346 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-21 11:45:18.429 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-21 11:45:19.190 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-21 11:45:19.288 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-21 11:45:19.909 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-08-21 11:45:19.913 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-21 11:45:19.966 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-21 11:45:20.036 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-21 11:45:21.948 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-21 11:45:22.052 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-21 11:45:22.452 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-21 11:45:23.957 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-21 11:45:24.356 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-08-21 11:45:24.505 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-08-21 11:45:24.535 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/api-file-monitor'
+2025-08-21 11:45:24.550 INFO  c.m.f.FileMonitorApplication - Started FileMonitorApplication in 12.156 seconds (process running for 19.796)
+2025-08-21 11:45:24.554 INFO  c.m.f.service.FileMonitorService - Diretórios configurados - Input: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao, Output: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output
+2025-08-21 11:45:24.758 INFO  c.m.f.service.FileMonitorService - Arquivo existente encontrado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\txitens.txt.BAK
+2025-08-21 11:45:24.762 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:45:24.764 INFO  c.m.f.service.FileMonitorService - Monitoramento de arquivos iniciado para: C:/Users/Junior/Documents/_Cliente_e_Consultorias/atacadao/importacao
+2025-08-21 11:45:24.772 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:45:24.825 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:45:24.842 INFO  c.m.f.service.FileParserService - Parse concluído. 2402 registros processados
+2025-08-21 11:45:24.843 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 2402 registros
+2025-08-21 11:45:24.995 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_114524.json
+2025-08-21 11:45:24.995 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 2402 registros posicionais para produtos
+2025-08-21 11:45:25.024 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 2402 produtos gerados
+2025-08-21 11:45:25.025 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 2402 itens
+2025-08-21 11:45:25.065 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_114525.json
+2025-08-21 11:45:25.066 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 11:45:25.066 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:45:25.066 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_114524.json
+2025-08-21 11:45:25.066 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_114525.json
+2025-08-21 11:45:25.067 INFO  c.m.f.service.FileProcessingService -   - Registros: 2402
+2025-08-21 11:45:25.067 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 2402 registros
+2025-08-21 11:54:10.404 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:54:10.406 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:54:10.408 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:54:10.409 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 11:54:10.410 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 11:54:10.412 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_115410.json
+2025-08-21 11:54:10.413 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 11:54:10.413 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 11:54:10.413 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 11:54:10.416 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_115410.json
+2025-08-21 11:54:10.416 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 11:54:10.416 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:54:10.416 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_115410.json
+2025-08-21 11:54:10.416 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_115410.json
+2025-08-21 11:54:10.416 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 11:54:10.416 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 11:57:46.926 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:57:46.930 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:57:46.938 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:57:46.941 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 11:57:46.941 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 11:57:46.944 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_115746.json
+2025-08-21 11:57:46.944 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 11:57:46.944 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 11:57:46.944 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 11:57:46.946 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_115746.json
+2025-08-21 11:57:46.946 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 11:57:46.946 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 11:57:46.947 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_115746.json
+2025-08-21 11:57:46.947 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_115746.json
+2025-08-21 11:57:46.947 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 11:57:46.947 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 12:02:43.365 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-21 12:02:44.744 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-08-21 12:02:46.849 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-21 12:02:46.855 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-21 12:02:46.861 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-21 12:25:01.578 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-21 12:25:01.697 INFO  c.m.f.FileMonitorApplication - Starting FileMonitorApplication using Java 17.0.9 with PID 23412 (C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\final_atac_file\target\classes started by Junior in C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\git\wayvis\final_atac_file)
+2025-08-21 12:25:01.699 INFO  c.m.f.FileMonitorApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-21 12:25:03.490 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-21 12:25:03.898 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 354 ms. Found 1 JPA repository interface.
+2025-08-21 12:25:05.630 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-08-21 12:25:05.665 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-08-21 12:25:05.675 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-21 12:25:05.676 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-21 12:25:05.881 INFO  o.a.c.c.C.[.[.[/api-file-monitor] - Initializing Spring embedded WebApplicationContext
+2025-08-21 12:25:05.884 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4055 ms
+2025-08-21 12:25:06.429 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-21 12:25:06.580 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-21 12:25:06.659 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-21 12:25:07.466 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-21 12:25:07.543 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-21 12:25:07.910 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-08-21 12:25:07.914 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-21 12:25:07.964 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-21 12:25:08.029 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-21 12:25:10.077 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-21 12:25:10.201 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-21 12:25:10.975 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-21 12:25:13.227 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-21 12:25:13.746 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-08-21 12:25:13.946 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-08-21 12:25:13.987 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/api-file-monitor'
+2025-08-21 12:25:14.010 INFO  c.m.f.FileMonitorApplication - Started FileMonitorApplication in 13.862 seconds (process running for 16.36)
+2025-08-21 12:25:14.017 INFO  c.m.f.service.FileMonitorService - Diretórios configurados - Input: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao, Output: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output
+2025-08-21 12:25:14.332 INFO  c.m.f.service.FileMonitorService - Arquivo existente encontrado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\txitens.txt.BAK
+2025-08-21 12:25:14.337 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:25:14.339 INFO  c.m.f.service.FileMonitorService - Monitoramento de arquivos iniciado para: C:/Users/Junior/Documents/_Cliente_e_Consultorias/atacadao/importacao
+2025-08-21 12:25:14.352 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:25:14.442 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:25:14.446 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 12:25:14.447 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 12:25:14.580 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_122514.json
+2025-08-21 12:25:14.580 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 12:25:14.583 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 12:25:14.584 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 12:25:14.591 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_122514.json
+2025-08-21 12:25:14.591 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:25:14.591 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:25:14.591 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_122514.json
+2025-08-21 12:25:14.591 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_122514.json
+2025-08-21 12:25:14.591 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 12:25:14.591 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 12:30:15.501 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:30:15.506 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:30:15.509 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:30:15.510 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 12:30:15.511 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 12:30:15.513 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_123015.json
+2025-08-21 12:30:15.513 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 12:30:15.514 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 12:30:15.514 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 12:30:15.517 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_123015.json
+2025-08-21 12:30:15.517 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:30:15.518 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:30:15.518 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_123015.json
+2025-08-21 12:30:15.518 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_123015.json
+2025-08-21 12:30:15.518 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 12:30:15.518 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 12:32:15.717 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:32:15.723 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:32:15.725 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:32:15.726 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 12:32:15.726 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 12:32:15.730 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_123215.json
+2025-08-21 12:32:15.731 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 12:32:15.731 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 12:32:15.731 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 12:32:15.741 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_123215.json
+2025-08-21 12:32:15.741 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:32:15.742 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:32:15.742 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_123215.json
+2025-08-21 12:32:15.742 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_123215.json
+2025-08-21 12:32:15.742 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 12:32:15.742 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 12:36:36.287 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:36:36.307 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:36:36.310 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:36:36.311 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 12:36:36.311 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 12:36:36.314 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_123636.json
+2025-08-21 12:36:36.314 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 12:36:36.314 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 12:36:36.314 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 12:36:36.316 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_123636.json
+2025-08-21 12:36:36.316 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:36:36.316 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:36:36.316 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_123636.json
+2025-08-21 12:36:36.317 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_123636.json
+2025-08-21 12:36:36.317 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 12:36:36.317 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 12:37:22.284 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:37:22.288 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:37:22.292 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:37:22.292 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 12:37:22.293 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 12:37:22.296 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_123722.json
+2025-08-21 12:37:22.296 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 12:37:22.296 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 12:37:22.297 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 12:37:22.298 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_123722.json
+2025-08-21 12:37:22.298 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:37:22.298 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:37:22.298 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_123722.json
+2025-08-21 12:37:22.299 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_123722.json
+2025-08-21 12:37:22.299 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 12:37:22.299 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 12:43:44.167 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:43:44.170 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:43:44.173 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:43:44.173 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 12:43:44.174 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 12:43:44.180 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_124344.json
+2025-08-21 12:43:44.180 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 12:43:44.180 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 12:43:44.180 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 12:43:44.181 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_124344.json
+2025-08-21 12:43:44.181 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:43:44.182 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:43:44.182 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_124344.json
+2025-08-21 12:43:44.182 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_124344.json
+2025-08-21 12:43:44.182 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 12:43:44.182 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 12:48:49.717 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:48:49.720 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:48:49.722 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:48:49.722 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 12:48:49.722 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 12:48:49.724 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_124849.json
+2025-08-21 12:48:49.724 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 12:48:49.724 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 12:48:49.724 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 12:48:49.726 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_124849.json
+2025-08-21 12:48:49.726 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:48:49.726 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:48:49.727 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_124849.json
+2025-08-21 12:48:49.727 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_124849.json
+2025-08-21 12:48:49.727 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 12:48:49.727 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 12:51:40.092 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:51:40.105 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:51:40.107 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:51:40.108 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 12:51:40.108 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 12:51:40.120 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_125140.json
+2025-08-21 12:51:40.121 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 12:51:40.122 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 12:51:52.926 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 12:51:52.939 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_125152.json
+2025-08-21 12:52:26.620 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s653ms826µs100ns).
+2025-08-21 12:52:26.624 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:52:26.625 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:52:26.625 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_125140.json
+2025-08-21 12:52:26.625 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_125152.json
+2025-08-21 12:52:26.625 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 12:52:26.626 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 12:55:20.906 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:55:20.908 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:55:20.911 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:55:20.916 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:55:20.919 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:55:20.922 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:55:20.937 INFO  c.m.f.service.FileParserService - Parse concluído. 2402 registros processados
+2025-08-21 12:55:20.937 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 2402 registros
+2025-08-21 12:55:20.942 INFO  c.m.f.service.FileParserService - Parse concluído. 2402 registros processados
+2025-08-21 12:55:20.943 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 2402 registros
+2025-08-21 12:55:20.956 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_125520.json
+2025-08-21 12:55:20.956 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_125520.json
+2025-08-21 12:55:20.957 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 2402 registros posicionais para produtos
+2025-08-21 12:55:20.957 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 2402 registros posicionais para produtos
+2025-08-21 12:55:20.979 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 2402 produtos gerados
+2025-08-21 12:55:20.979 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 2402 produtos gerados
+2025-08-21 12:55:27.509 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 2402 itens
+2025-08-21 12:55:27.510 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 2402 itens
+2025-08-21 12:55:27.536 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_125527.json
+2025-08-21 12:55:27.536 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:55:27.536 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:55:27.536 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_125520.json
+2025-08-21 12:55:27.536 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_125527.json
+2025-08-21 12:55:27.536 INFO  c.m.f.service.FileProcessingService -   - Registros: 2402
+2025-08-21 12:55:27.536 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 2402 registros
+2025-08-21 12:55:27.538 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_125527.json
+2025-08-21 12:55:27.538 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 12:55:27.538 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 12:55:27.538 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_125520.json
+2025-08-21 12:55:27.538 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_125527.json
+2025-08-21 12:55:27.538 INFO  c.m.f.service.FileProcessingService -   - Registros: 2402
+2025-08-21 12:55:27.538 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 2402 registros
+2025-08-21 14:57:27.793 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 14:57:27.805 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 14:57:27.815 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 14:57:27.818 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 14:57:27.818 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 14:57:27.824 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_145727.json
+2025-08-21 14:57:27.824 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 14:57:27.825 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 14:57:27.825 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 14:57:27.827 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_145727.json
+2025-08-21 14:57:27.827 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 14:57:27.827 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 14:57:27.827 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_145727.json
+2025-08-21 14:57:27.827 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_145727.json
+2025-08-21 14:57:27.827 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 14:57:27.827 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 15:14:37.818 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:14:37.825 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:14:37.849 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:14:37.849 INFO  c.m.f.service.FileParserService - Parse concluído. 3 registros processados
+2025-08-21 15:14:37.850 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 3 registros
+2025-08-21 15:14:37.851 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_151437.json
+2025-08-21 15:14:37.851 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 3 registros posicionais para produtos
+2025-08-21 15:14:37.852 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 3 produtos gerados
+2025-08-21 15:14:37.852 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 3 itens
+2025-08-21 15:14:37.854 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_151437.json
+2025-08-21 15:14:37.855 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 15:14:37.855 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:14:37.855 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_151437.json
+2025-08-21 15:14:37.855 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_151437.json
+2025-08-21 15:14:37.855 INFO  c.m.f.service.FileProcessingService -   - Registros: 3
+2025-08-21 15:14:37.855 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 3 registros
+2025-08-21 15:15:22.920 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:15:22.925 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:15:22.927 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:15:22.935 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:15:22.940 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:15:22.943 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:15:22.954 INFO  c.m.f.service.FileParserService - Parse concluído. 2402 registros processados
+2025-08-21 15:15:22.954 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 2402 registros
+2025-08-21 15:15:22.958 INFO  c.m.f.service.FileParserService - Parse concluído. 2402 registros processados
+2025-08-21 15:15:22.958 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 2402 registros
+2025-08-21 15:15:22.966 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_151522.json
+2025-08-21 15:15:22.966 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 2402 registros posicionais para produtos
+2025-08-21 15:15:22.970 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_151522.json
+2025-08-21 15:15:22.970 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 2402 registros posicionais para produtos
+2025-08-21 15:15:22.984 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 2402 produtos gerados
+2025-08-21 15:15:22.984 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 2402 itens
+2025-08-21 15:15:22.994 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 2402 produtos gerados
+2025-08-21 15:15:22.994 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 2402 itens
+2025-08-21 15:15:23.016 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_151522.json
+2025-08-21 15:15:23.016 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 15:15:23.016 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:15:23.016 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_151522.json
+2025-08-21 15:15:23.016 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_151522.json
+2025-08-21 15:15:23.016 INFO  c.m.f.service.FileProcessingService -   - Registros: 2402
+2025-08-21 15:15:23.016 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 2402 registros
+2025-08-21 15:15:23.019 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_151522.json
+2025-08-21 15:15:23.019 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 15:15:23.019 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:15:23.020 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_151522.json
+2025-08-21 15:15:23.020 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_151522.json
+2025-08-21 15:15:23.020 INFO  c.m.f.service.FileProcessingService -   - Registros: 2402
+2025-08-21 15:15:23.020 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 2402 registros
+2025-08-21 15:18:58.491 INFO  c.m.f.service.FileMonitorService - Iniciando processamento assíncrono do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:18:58.494 INFO  c.m.f.service.FileProcessingService - Iniciando processamento do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:18:58.498 INFO  c.m.f.service.FileParserService - Iniciando parse do arquivo: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:18:58.524 INFO  c.m.f.service.FileParserService - Parse concluído. 2402 registros processados
+2025-08-21 15:18:58.524 INFO  c.m.f.service.JsonGeneratorService - Gerando arquivo JSON para 2402 registros
+2025-08-21 15:18:58.536 INFO  c.m.f.service.JsonGeneratorService - Arquivo JSON gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_151858.json
+2025-08-21 15:18:58.536 INFO  c.m.f.service.ProdutoMapperService - Iniciando mapeamento de 2402 registros posicionais para produtos
+2025-08-21 15:18:58.559 INFO  c.m.f.service.ProdutoMapperService - Mapeamento concluído. 2402 produtos gerados
+2025-08-21 15:18:58.559 INFO  c.m.f.service.ProdutoJsonService - Gerando arquivo JSON de produtos para 2402 itens
+2025-08-21 15:18:58.577 INFO  c.m.f.service.ProdutoJsonService - Arquivo JSON de produtos gerado: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_151858.json
+2025-08-21 15:18:58.577 INFO  c.m.f.service.FileProcessingService - Arquivo processado com sucesso: 
+2025-08-21 15:18:58.577 INFO  c.m.f.service.FileProcessingService -   - Entrada: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\input\txitens.txt
+2025-08-21 15:18:58.577 INFO  c.m.f.service.FileProcessingService -   - JSON Original: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\txitens_20250821_151858.json
+2025-08-21 15:18:58.577 INFO  c.m.f.service.FileProcessingService -   - JSON Produtos: C:\Users\Junior\Documents\_Cliente_e_Consultorias\atacadao\importacao\output\jsonprodutos\produtos_txitens_20250821_151858.json
+2025-08-21 15:18:58.577 INFO  c.m.f.service.FileProcessingService -   - Registros: 2402
+2025-08-21 15:18:58.577 INFO  c.m.f.service.FileProcessingService -   Chamando o adm para atualizar BD com 2402 registros
