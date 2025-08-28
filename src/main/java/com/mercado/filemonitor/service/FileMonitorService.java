@@ -24,6 +24,7 @@ public class FileMonitorService {
     private final Set<String> processingFiles = ConcurrentHashMap.newKeySet();
 
     @EventListener(ApplicationReadyEvent.class)
+    @Scheduled(fixedDelayString = "180000")
     public void initializeFileMonitoring() {
         try {
             setupDirectories();
@@ -57,15 +58,16 @@ public class FileMonitorService {
 
     }
 
-    @Scheduled(fixedDelayString = "${file.monitor.polling-interval:5000}")
+    @Scheduled(fixedDelayString = "180000")
     public void pollForFileChanges() {
         if (watchService == null) {
             return;
         }
-
+        log.info("Iniciado poll => *************");
         WatchKey key = watchService.poll();
         if (key != null) {
             for (WatchEvent<?> event : key.pollEvents()) {
+
                 WatchEvent.Kind<?> kind = event.kind();
 
                 if (kind == StandardWatchEventKinds.OVERFLOW) {
@@ -77,9 +79,11 @@ public class FileMonitorService {
                 Path filename = ev.context();
                 Path filePath = Paths.get(config.getInputDirectory()).resolve(filename);
 
+                log.info(" Verificando ...");
                 if (shouldProcessFile(filePath)) {
                     Path fileTxItens = criarCopiaDoArquivoNoDiretorio(filePath);
-                    processFileAsync(fileTxItens);
+                    log.info(" Chamando processamento ...");
+                    //processFileAsync(fileTxItens);
                 }
             }
 
@@ -99,6 +103,7 @@ public class FileMonitorService {
                     if (matcher.matches(file.getFileName()) && shouldProcessFile(file)) {
                         log.info("Arquivo existente encontrado: {}", file);
                         Path fileTxItens = criarCopiaDoArquivoNoDiretorio(file);
+                        log.info(" Chamando processamento ...");
                         processFileAsync(fileTxItens);
                     }
                     return FileVisitResult.CONTINUE;
