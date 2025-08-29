@@ -31,14 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
-!/.idea/
-!/logs/
-!/local-repo/
 /src/main/resources/static/
-!/logs/
-!/local-repo/
-!/.idea/
 /.idea/
-!/local-repo/
-!/logs/
-!/target/
+/local-repo/
+/target/
+/logs/

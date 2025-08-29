@@ -21,7 +21,7 @@ public class FileMonitorConfig {
 
     @Value("${file.monitor.output-directorio-jsonprodutos}")
     private String outputDirectoryJsonProdutos;
-    private long pollingInterval = 5000;
+    private long pollingInterval = 300000;
 
     @Value("${file.monitor.file-pattern}")
     private String filePattern;
