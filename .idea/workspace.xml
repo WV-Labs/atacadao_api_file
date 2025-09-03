@@ -6,6 +6,39 @@
   <component name="ChangeListManager">
     <list default="true" id="82789f4a-0c08-4feb-a6e8-b12d4c829ce1" name="Changes" comment="Atualizacao 21-08-2025 - Subida Analisar Importação do txItens (Nome iguais  .bak  .txt), NOME do arquivo de importação configurado">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercado/filemonitor/service/FileMonitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercado/filemonitor/service/FileMonitorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/FileMonitorApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/config/ClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/config/FileMonitorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/controller/FileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/dto/PositionalRecord$PositionalRecordBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/dto/PositionalRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/dto/ProdutoDTO$CategoriaDTO$CategoriaDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/dto/ProdutoDTO$CategoriaDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/dto/ProdutoDTO$ProdutoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/dto/ProdutoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/entity/FileRecord$ProcessingStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/entity/FileRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/repository/FileRecordRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/service/FileMonitorService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/service/FileMonitorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/service/FileParserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/service/FileProcessingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/service/JsonGeneratorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/service/ProdutoJsonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/service/ProdutoMapperService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/util/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/util/FileValidator$ValidationResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/util/FileValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercado/filemonitor/util/ProdutoWebClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/file-monitor-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/file-monitor-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +49,11 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -51,7 +89,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.FileMonitorApplication.executor": "Debug",
-    "git-widget-placeholder": "feature/correcao2808",
+    "git-widget-placeholder": "feature/leituraSingleDir",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Junior/Documents/_JTP/projetos",
     "node.js.detected.package.eslint": "true",

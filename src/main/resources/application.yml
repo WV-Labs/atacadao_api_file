@@ -36,12 +36,12 @@ logging:
 # Configuracoes customizadas
 file:
   monitor:
-    path_raiz: C:/Users/USER/OneDrive/Desktop/importacao
+    path_raiz: C:/Users/Junior/Documents/_Cliente_e_Consultorias/atacadao/importacao
     input-directorio: ${file.monitor.path_raiz}
     output-directorio: ${file.monitor.path_raiz}/output
     output-directorio-jsonprodutos: ${file.monitor.path_raiz}/output/jsonprodutos
     polling-interval: 5000  # milissegundos
-    file-pattern: "txitens.txt.txt.txt"
+    file-pattern: "txitens.txt"
 
 app-mercado:
   remote:
