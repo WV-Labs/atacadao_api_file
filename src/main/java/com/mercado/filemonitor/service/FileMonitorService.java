@@ -3,9 +3,9 @@ package com.mercado.filemonitor.service;
 import com.mercado.filemonitor.config.FileMonitorConfig;
 import java.io.IOException;
 import java.nio.file.*;
-import java.nio.file.attribute.BasicFileAttributes;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.stream.Stream;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
@@ -24,7 +24,7 @@ public class FileMonitorService {
     private final Set<String> processingFiles = ConcurrentHashMap.newKeySet();
 
     @EventListener(ApplicationReadyEvent.class)
-    @Scheduled(fixedDelayString = "180000")
+    @Scheduled(fixedDelayString = "300000")
     public void initializeFileMonitoring() {
         try {
             setupDirectories();
@@ -58,7 +58,7 @@ public class FileMonitorService {
 
     }
 
-    @Scheduled(fixedDelayString = "180000")
+    @Scheduled(fixedDelayString = "300000")
     public void pollForFileChanges() {
         if (watchService == null) {
             return;
@@ -93,30 +93,30 @@ public class FileMonitorService {
 
     private void scanExistingFiles() {
         try {
-            //Path inputDir = Paths.get(config.getInputDirectory());
+
             Path inputDir = Paths.get(config.getPath());
             PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:" + config.getFilePattern());
-
-            Files.walkFileTree(inputDir, new SimpleFileVisitor<Path>() {
-                @Override
-                public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
-                    if (matcher.matches(file.getFileName()) && shouldProcessFile(file)) {
-                        log.info("Arquivo existente encontrado: {}", file);
-                        Path fileTxItens = criarCopiaDoArquivoNoDiretorio(file);
-                        log.info(" Chamando processamento ...");
-                        processFileAsync(fileTxItens);
-                    }
-                    return FileVisitResult.CONTINUE;
-                }
-            });
+            log.info("Escaneando APENAS no diretório: {}", inputDir);
+            try (Stream<Path> paths = Files.list(inputDir)) {
+                paths.filter(Files::isRegularFile)  // Só arquivos (não diretórios)
+                        .filter(file -> matcher.matches(file.getFileName()))
+                        .filter(this::shouldProcessFile)
+                        .forEach(file -> {
+                            log.info("Arquivo encontrado no diretório raiz: {}", file);
+                            Path fileTxItens = criarCopiaDoArquivoNoDiretorio(file);
+                            if (fileTxItens != null) {
+                                log.info("Chamando processamento...");
+                                processFileAsync(fileTxItens);
+                            }
+                        });
+            }
+            log.info("Scan finalizado - NENHUM subdiretório foi acessado");
         } catch (IOException e) {
-            log.error("Erro ao escanear arquivos existentes: {}", e.getMessage(), e);
+            log.error("Erro ao escanear arquivos no diretório raiz: {}", e.getMessage(), e);
         }
     }
 
     private Path criarCopiaDoArquivoNoDiretorio(Path origem) {
-        // Caminho do arquivo de destino (vai criar se não existir)
-        //Path destino = Paths.get(config.getPathTrabalho() + "/txitens.txt");
         Path destino = Paths.get(config.getInputDirectory() + "/input/txitens.txt");
 
         try {
